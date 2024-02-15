@@ -1,8 +1,7 @@
 # estudo da linguagem C
 ## neste repositório será publicado arquivos escritos em C
 
-<img src="data:image/png;base64,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">
-
+<img src="data:image/png;base64,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">
 ### abaixo é apresentado os arquivos deste repositório
 
 ### hello.c
@@ -11,6 +10,81 @@
 #include <stdio.h>
 int main(){
     printf("hello,world\n");
+    return 0;
+}
+```
+
+
+#### primeiro.c
+
+```c
+/*
+este programa pede ao usuário um número qualquer e depois exibe o número na tela
+*/
+#include <stdio.h>           //estamos importando uma blibioteca para trabalhar com arquivos e dados
+int main(){
+    int idade;               //declaração da variável idade do tipo inteiro
+    printf("digite a sua idade e tecle enter/n");
+    scanf("%d",&idade);   //para pegar o número digitado pelo usuário,estamos usando o comando scanf e adicionando o valor digitado ao        endereço de memória da variável idade.usamos o e-comercial para referenciar o endereço de memória da variável idade
+    printf("A idade digitada é %d\n endereço da variável idade %x\n ",idade,&idade);
+    return 0;
+}
+```
+
+
+### operaçoes.c
+
+```c
+#include<stdio.h>
+
+int main(){
+    int n1;
+    int n2;
+    int soma;
+    int subtrair;
+    int multiplicar;
+    int dividir;
+    printf("digite um número e tecle enter\n");
+    scanf("%d",&n1);
+
+    printf("digite outro número e tecle enter\n");
+    scanf("%d",&n2);
+
+    soma =  n1 + n2;
+    subtrair = n1 - n2;
+    multiplicar = n1 * n2;
+    dividir = n1 / n2;
+
+    printf("o resultado da soma é %d\n",soma);
+    printf("o resultado da subtrção é %d\n",subtrair);
+    printf("o resultado da multiplicação é %d\n",multiplicar);
+    printf("o resultado da divisão é %d\n",dividir);
+    return 0;
+}
+```
+
+### desconto.c
+
+```c
+#include<stdio.h>
+
+int main(){
+    float preco;
+    float percentual;
+    float resultado;
+    float vdesc;
+
+    printf("digite o preço do produto: \n");
+    scanf("%f",&preco);
+
+
+    printf("digite o desconto do produto: \n");
+    scanf("%F",&percentual);
+
+    resultado = preco - (preco *(percentual /100));
+
+    vdesc = preco - resultado;
+    printf("o preço final do produto com desconto de %2.2f é %2.2f\n", vdesc,resultado);
     return 0;
 }
 ```
