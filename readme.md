@@ -229,3 +229,52 @@ return 0;
 
 }
 ```
+### tabuada
+```c
+#include <stdio.h>
+int main(){
+    int num,num2;
+    printf("digite um número pra tabuada:\n");
+    scanf("%d",&num);
+    for(num2 = 1; num2 <= 10 ;num2++ ){
+        printf("%d x %d = %d\n",num,num2,(num*num2));
+    }
+    return 0;
+
+}
+```
+### colecoes
+```c
+// array é um conjunto de dados sobre um determinado
+// assunto, podemos falar de valores númericos,textos
+// datas, ou objetos
+
+#include <stdio.h>
+
+int main(){
+int valores[5] = {10,5,8,12,7};
+printf("%d\n",valores[3]);
+return 0;
+}
+```
+### colecoes2
+```c
+#include<stdio.h>
+int main(){
+    int c1[10] = {10,5,68,8,47,12,54,13,62,11};
+    int c2[15] = {11,5,62,112,84,76,12,55,59,85,13,0,14,19,18};
+
+    int i, j;
+
+    printf("números iguais da coleção: \n");
+     
+     for(i = 0 ; i < 10; i++){
+        for(j = 0 ; j < 15 ; j++){
+            if(c1[i] == c2[j]){
+                printf("%d\n",c1[i]);
+            }
+        }
+     }
+return 0;
+}
+```
